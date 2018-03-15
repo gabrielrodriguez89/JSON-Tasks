@@ -17,7 +17,7 @@ What things you need to install the software and how to install them
 Parsing command line aguments
 
 example:
-    test.JSON | python.py
+    TransforTasks.py | Test.JSON
     
 Contributing
 
