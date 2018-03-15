@@ -1,8 +1,8 @@
+C:\Users\gabriel\Desktop\Code Examples\TransformTasks\TransformTasks\obj\Debug\TransformTasks.csprojResolveAssemblyReference.cache
 C:\Users\gabriel\Desktop\Code Examples\TransformTasks\TransformTasks\bin\Debug\TransformTasks.exe.config
 C:\Users\gabriel\Desktop\Code Examples\TransformTasks\TransformTasks\bin\Debug\TransformTasks.exe
 C:\Users\gabriel\Desktop\Code Examples\TransformTasks\TransformTasks\bin\Debug\TransformTasks.pdb
 C:\Users\gabriel\Desktop\Code Examples\TransformTasks\TransformTasks\bin\Debug\Newtonsoft.Json.dll
 C:\Users\gabriel\Desktop\Code Examples\TransformTasks\TransformTasks\bin\Debug\Newtonsoft.Json.xml
-C:\Users\gabriel\Desktop\Code Examples\TransformTasks\TransformTasks\obj\Debug\TransformTasks.csprojResolveAssemblyReference.cache
 C:\Users\gabriel\Desktop\Code Examples\TransformTasks\TransformTasks\obj\Debug\TransformTasks.exe
 C:\Users\gabriel\Desktop\Code Examples\TransformTasks\TransformTasks\obj\Debug\TransformTasks.pdb

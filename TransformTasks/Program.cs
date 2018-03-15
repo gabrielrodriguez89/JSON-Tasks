@@ -46,26 +46,24 @@ namespace TransformTasks
         {
             //used while testing
 
-            fullPath = "C:\\Users\\gabriel\\Desktop\\Code Examples\\TransformTasks\\TransformTasks\\bin\\Debug\\test.json";
+            //fullPath = "C:\\Users\\gabriel\\Desktop\\Code Examples\\TransformTasks\\TransformTasks\\bin\\Debug\\test.json";
 
             /*
                    used during deployment 
             */
 
             //current directory is used assuming the call the the .exe will also house the path to the .JSON file
-            //string path = Directory.GetCurrentDirectory();
+            string path = Directory.GetCurrentDirectory();
             //get the name of the file that is piped when the program is called
-            //string j = Console.ReadLine();
-            //if(path.Length > 3)
-            //{
+            string file = Console.ReadLine();
+            if(path.Length > 3)
+            {
                 //concat the path and command line param
-                //string fullPath = path + "\\" + j;
+                string fullPath = path + "\\" + file;
                 SetStreamIn(fullPath);
                 SetStreamOut();
                 Console.Read();
-           // }
-
-
+           }
             
 
         }
@@ -149,8 +147,11 @@ namespace TransformTasks
         {
             try
             {
+                WriteToFile(appType, stdOutApp, countApp);
                 WriteToFile(version, stdOutVersion, countVer);
-                Console.ReadKey();
+                WriteToFile(roleType, stdOutRole, countRole);
+                WriteToFile(location, stdOutLoc, countLoc);
+                Console.Read();
             }
             catch (IOException ex)
             {
@@ -193,7 +194,7 @@ namespace TransformTasks
                         if (k == 0)
                         {
                             Console.WriteLine(ver);
-                            task.Add(k, new SerializeTask { TaskKey = version, TaskValue = ver });
+                            
                         }
                         //compare strings
                         if (name[k].Equals(ver))
@@ -239,7 +240,6 @@ namespace TransformTasks
 
                 throw;
             }
-
         }
     }
 }
